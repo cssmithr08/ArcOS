@@ -1,0 +1,62 @@
+/* --- Waybar Bar Styling --- */
+#waybar {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 4px;
+    padding:1px 3px;
+    margin:3px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+}
+
+/* --- Workspace Bubbles --- */
+#workspaces button {
+    background-color: rgba(0, 188, 212, 0.25); /* cyan-ish inactive */
+    color: white;
+    padding:1px 3px;
+    margin: 0 4px;
+    border-radius: 999px; /* pill shape */
+    border: 2px solid rgba(0, 188, 212, 0.6);
+    transition: 0.2s ease;
+}
+
+#workspaces button:hover {
+    background-color: rgba(0, 188, 212, 0.45);
+}
+
+#workspaces button.active {
+    background-color: rgba(23, 147, 209, 1.0); /* Arch blue */
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+}
+#clock,
+#network,
+#power {
+    background-color: rgba(0, 188, 212, 0.25);
+    padding: 6px 12px;
+    margin: 0 6px;
+    border-radius: 999px;
+    border: 2px solid rgba(0, 188, 212, 0.6);
+    color: white;
+    transition: 0.2s ease;
+}
+
+#clock:hover,
+#network:hover,
+#power:hover {
+    background-color: rgba(0, 188, 212, 0.45);
+}
+
+#pulseaudio {
+    background-color: rgba(0, 188, 212, 0.25);
+    padding: 6px 12px;
+    margin: 0 6px;
+    border-radius: 999px;
+    border: 2px solid rgba(0, 188, 212, 0.6);
+    color: white;
+    transition: 0.2s ease;
+}
+
+#pulseaudio:hover {
+    background-color: rgba(0, 188, 212, 0.45);
+}

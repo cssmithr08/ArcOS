@@ -1,0 +1,33 @@
+# ArchISO build output
+ArcOS-ISO/work/
+ArcOS-ISO/out/
+
+# Kernel build artifacts
+ArcOS-Kernel/*.pkg.tar.zst
+ArcOS-Kernel/src/
+ArcOS-Kernel/pkg/
+
+# Temporary files
+*.log
+*.tmp
+
+# Kernel and driver packages (too large for GitHub)
+ArcOS-ISO/packages/*.pkg.tar.zst
+
+# Ignore all package files (local repo)
+ArcOS-ISO/packages/*.pkg.tar.zst
+ArcOS-ISO/packages/*.db
+ArcOS-ISO/packages/*.db.tar.gz
+ArcOS-ISO/packages/*.files
+ArcOS-ISO/packages/*.files.tar.gz
+
+# Ignore build output
+ArcOS-ISO/work/
+ArcOS-ISO/out/
+
+# Ignore ISO artifacts
+*.iso
+
+# Ignore temporary files
+*.swp
+*.tmp
