@@ -15,11 +15,11 @@ ArcOS-Kernel/pkg/
 ArcOS-ISO/packages/*.pkg.tar.zst
 
 # Ignore all package files (local repo)
-ArcOS-ISO/packages/*.pkg.tar.zst
-ArcOS-ISO/packages/*.db
-ArcOS-ISO/packages/*.db.tar.gz
-ArcOS-ISO/packages/*.files
-ArcOS-ISO/packages/*.files.tar.gz
+ArcOS-ISO/airootfs/packages/*.pkg.tar.zst
+ArcOS-ISO/airootfs/packages/*.db
+ArcOS-ISO/airootfs/packages/*.db.tar.gz
+ArcOS-ISO/airootfs/packages/*.files
+ArcOS-ISO/airootfs/packages/*.files.tar.gz
 
 # Ignore build output
 ArcOS-ISO/work/
